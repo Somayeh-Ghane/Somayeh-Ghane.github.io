@@ -472,7 +472,7 @@
       });
 
       // CV existence check (shows warning only if missing)
-      fetch("assets/CV_Somayeh_Ghaneameleh.pdf", { method: "HEAD" })
+      fetch("assets/Somayeh_CV.pdf", { method: "HEAD" })
         .then(r => {
           if(!r.ok) document.getElementById("cvWarn").style.display = "block";
         })
